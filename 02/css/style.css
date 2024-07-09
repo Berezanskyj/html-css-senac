@@ -12,9 +12,13 @@ h2{
 /* Estilizando um ID */
 #p1{
     color: blueviolet;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 16pt;
 }
 
 /* Estilizando uma classe */
 .center{
     text-align: center;
 }
+
