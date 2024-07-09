@@ -1,0 +1,20 @@
+@charset "utf-8";
+@import "https://fonts.googleapis.com/css?family=Noto+Serif";
+
+h1{
+    color: chocolate;
+}
+
+h2{
+    margin-left: 50px;
+}
+
+/* Estilizando um ID */
+#p1{
+    color: blueviolet;
+}
+
+/* Estilizando uma classe */
+.center{
+    text-align: center;
+}

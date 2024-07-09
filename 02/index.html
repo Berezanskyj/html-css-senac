@@ -6,21 +6,34 @@
     <title>Introdução ao CSS</title>
 
     <!--Declaração do CSS interno-->
-    <style>
-        h1{
-            text-align: center;
-        }
-    </style>
+       <style>
+            h1{
+                text-align: center;
+            }
+        </style>
+   
+
+    <!--Declaração do CSS externo-->
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
     <h1>Introdução ao CSS</h1>
     <br>
     
+    
     <h2>CSS in Line</h2>
-    <p style="color: red; margin: 20px;">Paragrado formatado com css em linha.</p>
+    <p style="color: red; margin: 20px;">Paragrafo formatado com CSS em linha.</p>
 
     <h2>CSS interno</h2>
-    <p ></p>
+    <p>Os codigos CSS internos devem ser delcarados na seção</p>
+
+    <h2>CSS Externo</h2>
+    <p id="p1">Para utilizar arquivos CSS externos em uma pagina HTML, o documento HTML deve conter um link para um arquivo de estilos na seção HEAD</p>
+
+    <p class="center">Um seletor de classe pode ser encontrado em mais de um elemento, no CSS, utiliza-se um ponto (.) seguido pelo nome da classe enquanto no HTML utiliza-se o comando "class="</p>
+
+    
 
 </body>
 </html>
