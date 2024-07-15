@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #fff4d3;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+main {
+    background-color: #de9e48;
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Added padding for smaller screens */
+}
+
+.login-form {
+    background-color: #fff4d3;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px; /* Ensures form doesn't get too wide */
+}
+
+.login-form h1 {
+    font-size: 36px;
+    color: #de9e48;
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #a8a29e;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #a8a29e;
+    font-size: 16px;
+}
+
+.forgot-password {
+    margin-bottom: 20px;
+}
+
+.forgot-password a {
+    color: #de9e48;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column; /* Stacks buttons on top of each other on smaller screens */
+    gap: 10px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    background-color: #a8a29e;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Buttons take full width on smaller screens */
+}
+
+.buttons button:hover {
+    background-color: #8d8b88;
+}
+
+.buttons button[type="button"] {
+    background-color: #de9e48;
+}
+
+.buttons button[type="button"]:hover {
+    background-color: #b56c3b;
+}
+
+/* Media Queries for responsiveness */
+@media (min-width: 768px) {
+    .buttons {
+        flex-direction: row; /* Side by side buttons on larger screens */
+    }
+
+    .buttons button {
+        width: auto; /* Resets button width for larger screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .login-form h1 {
+        font-size: 28px; /* Smaller font size on very small screens */
+    }
+
+    .login-form label {
+        font-size: 16px; /* Smaller font size for labels on very small screens */
+    }
+
+    .login-form input {
+        font-size: 14px; /* Smaller font size for input on very small screens */
+    }
+}
