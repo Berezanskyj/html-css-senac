@@ -1,0 +1,13 @@
+.navbar-list{
+    flex-direction: column;
+    list-style-type: none;
+    display: inline-block;
+    border: 2px solid rgb(12, 51, 51);
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.navbar-ul{
+    align-items: center;
+    
+}

@@ -9,3 +9,61 @@ table, tr, td, th{
 th, td{
     padding: 10px;
 }
+
+.center{
+    text-align: center;
+    border: solid 1px #000000;
+    padding: 10px;
+}
+
+.vertical{
+    border: solid 1px #000000;
+    text-align: center;
+    padding: 10px;
+    height: 150px;
+    width: 200px;
+}
+
+.esquerda{
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    height: 50px;
+    width: 50px;
+    background-color: #0000FF;
+    float: left;
+}
+
+.direita{
+    border: 1px solid rgb(0, 0, 0);
+    height: 50px;
+    width: 50px;
+    background-color: #6666c4;
+    float: right;
+}
+
+span{
+    color: blue;
+}
+
+.listanav{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-flex;
+    padding: 25px;
+    
+    
+}
+
+.dentro{
+    border: 10px solid #0000FF;
+    margin: 10px;
+    padding: 10px;
+    width: 160px;
+}
+
+.display{
+    border: 2px solid rgb(10, 54, 54);
+    display: inline-block;
+    padding: 10px;
+    margin-left: 85px;
+}
